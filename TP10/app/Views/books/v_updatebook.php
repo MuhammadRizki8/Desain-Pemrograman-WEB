@@ -38,12 +38,6 @@
                     </div>
                 </div>
                 <div class=" form-group row">
-                    <label for="cover" class="col-sm-3 col-form-label">Book Cover</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="cover" name="cover" value="<?php echo (old('cover')) ? old('cover') : $book['cover'] ?>">
-                    </div>
-                </div>
-                <div class=" form-group row">
                     <div class="col-sm-9">
                         <button type="submit" class="btn btn-primary">Update Book</button>
                     </div>

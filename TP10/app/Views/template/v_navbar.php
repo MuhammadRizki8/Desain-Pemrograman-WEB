@@ -23,6 +23,13 @@
                         <a class="dropdown-item" href="/home/contact">Contact</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <?php if(logged_in()): ?>
+                        <a class="nav-link" href="/logout">Log out</a>
+                    <?php else:?>
+                        <a class="nav-link" href="/login">Log in</a>
+                    <?php endif;?>
+                </li>
             </ul>
         </div>
     </div>

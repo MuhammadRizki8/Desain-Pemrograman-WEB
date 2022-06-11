@@ -8,7 +8,7 @@ class Tb_bookModel extends Model
 {
     protected $table = 'tb_book';
     protected $useTimestamps = true;
-    protected $allowedFields = ['title', 'slug', 'author', 'publisher', 'category', 'cover'];
+    protected $allowedFields = ['title', 'slug', 'author', 'publisher', 'category'];
 
     public function getBook($slug = false)
     {
