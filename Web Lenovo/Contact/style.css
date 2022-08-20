@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #e10020;
+  display: flex;
+  justify-content: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+header .list1 {
+  margin-right: 30px;
+  margin-left: -30px;
+}
+
+header img {
+  height: 100px;
+}
+
+.container {
+  width: 1500px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.container .hero {
+  height: 500px;
+  background-image: url(img/lenovo-covid-banner-Indonesia.jpg);
+}
+
+.container .form_contact table {
+  margin: 10px auto;
+}
+
+.container .form_contact table tr td {
+  padding: 15px;
+  text-align: left;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  padding-top: 10px;
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #e10020;
+  color: white;
+  font-size: larger;
+  margin-bottom: -20px;
+}

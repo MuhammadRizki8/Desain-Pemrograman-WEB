@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: lightgrey;
+}
+
+header .logo {
+  width: 300px;
+  height: 74px;
+  background-image: url(img/pngwing.com.png);
+  background-size: cover;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 1200px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+  color: black;
+}
+
+.hero {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/river-g06c9351bb_1920.jpg);
+  background-position: -100px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: -25px;
+}
+
+.hero h1 {
+  line-height: 200px;
+}
+
+.content {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.content .merah {
+  background-color: rgba(250, 0, 0, 0.4);
+  border: 1px solid red;
+  border-top: 3px solid red;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content .kategori_support {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.box {
+  width: 23%;
+}
+
+.box h3 {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  padding-top: 10px;
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #064a89;
+  color: white;
+}

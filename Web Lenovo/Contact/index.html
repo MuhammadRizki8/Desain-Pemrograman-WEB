@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="list1">
+        <li><a href="../Home/index.html">Home</a></li>
+        <li><a href="../About/index.html">About</a></li>
+        <li><a href="../Product/index.html">Product</a></li>
+      </ul>
+      <img src="img/lenovo-logo-black-transparent.png" alt="" />
+      <ul class="list2">
+        <li><a href="../Services/index.html">Services</a></li>
+        <li><a href="../Support/index.html">Support</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="hero"></div>
+      <div class="form_contact card">
+        <h1>Hubungi Kami</table></h1>
+        <table>
+          <form method="get" action="/1-3_act.php">
+            <tr>
+              <td><label for="nama">Nama : </label></td>
+              <td><input id="nama" type="text" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email : </label></td>
+              <td><input id="email" type="email" /></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password : </label></td>
+              <td><input id="password" type="password" /></td>
+            </tr>
+            <tr>
+              <td><label for="tanggalLahir">Tanggal Lahir : </label></td>
+              <td><input id="tanggalLahir" type="date" /></td>
+            </tr>
+            <tr>
+              <td><label>Jenis Kelamin : </label></td>
+              <td>
+                <input id="lk" name="jenisKelamin" value="Laki-Laki" type="radio" />
+                <label for="">Laki-Laki</label>
+                <input id="pr" name="jenisKelamin" value="Perempuan" type="radio" />
+                <label for="">Perempuan</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Hobi : </label></td>
+              <td>
+                <input id="tdr" name="hobi" value="Tidur" type="checkbox" />
+                <label for="">Tidur</label>
+                <input id="mkn" name="hobi" value="Makan" type="checkbox" />
+                <label for="">Makan</label>
+                <input id="brk" name="hobi" value="Berak" type="checkbox" />
+                <label for="">Berak</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="pekerjaan">Pekerjaan</label></td>
+              <td>
+                <select name="pekerjaan" id="pekerjaan">
+                  <option value="Pelajar">Pelajar</option>
+                  <option value="Wiraswasta">Wirausaha</option>
+                  <option value="Lainnya">Lainnya</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Alamat : </label></td>
+              <td><textarea></textarea></td>
+            </tr>
+            <tr>
+              <td><button type="submit">Kirim</button></td>
+              <td><button type="reset">Hapus</button></td>
+            </tr>
+          </form>
+        </table>
+      </div>
+    </div>
+    <footer><p class="copy">Copyright 2022. Muhammad Rizki</p></footer>
+  </body>
+</html>
